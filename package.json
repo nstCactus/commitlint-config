@@ -2,7 +2,7 @@
   "name": "@nstcactus/commitlint-config",
   "description": "A shareable config for commitlint enforcing conventional commits",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "0.0.0-semantically-released",
   "type": "module",
   "author": "nstcactus <nstcactus@gmail.com>",
   "bugs": "https://github.com/nstcactus/commitlint-config/issues",

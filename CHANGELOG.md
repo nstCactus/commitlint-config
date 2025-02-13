@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [1.1.0] - 2025-02-13
+
 ### Added
 
 - Emit warnings instead of errors when the line length in the body part of the message are too long
@@ -23,5 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Change the `header-max-length` limit to 120 characters
 
 
-[unreleased]: https://github.com/nstCactus/commitlint-config/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/nstCactus/commitlint-config/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/nstCactus/commitlint-config/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/nstCactus/commitlint-config/releases/tag/v1.0.2

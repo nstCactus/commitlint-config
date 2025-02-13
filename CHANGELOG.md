@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Emit warnings instead of errors when the line length in the body part of the message are too long
 - Change the `body-max-length` limit to 120 characters
+- Allow the **release** as a commit type
 
 
 ## [1.0.2] - 2025-02-12

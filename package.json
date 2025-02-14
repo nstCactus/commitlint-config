@@ -10,12 +10,16 @@
   "sideEffects": false,
   "main": "./index.js",
   "exports": "./index.js",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark --frail .",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
     "prepare": "husky install",
+    "lint:engines": "ls-engines",
     "lint:publish": "publint --strict"
   },
   "files": [
@@ -36,6 +40,7 @@
     "publint": "^0.3.4",
     "remark-cli": "^12.0.1",
     "remark-lint": "^10.0.1",
+    "ls-engines": "^0.9.3",
     "remark-lint-maximum-line-length": "^4.1.1",
     "remark-lint-no-shortcut-reference-link": "^4.0.1",
     "remark-lint-unordered-list-marker-style": "^4.0.1"

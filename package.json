@@ -18,7 +18,6 @@
     "lint:md": "remark --frail .",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
-    "prepare": "husky install",
     "lint:engines": "ls-engines",
     "lint:publish": "publint --strict"
   },
